@@ -7,3 +7,15 @@ This app is meant to be a really simple app that can do a one job - let the user
 ## GUI sketch
 ![sketch 1](docs/gui1.jpg)
 ![sketch 2](docs/gui2.jpg)
+
+## Prepare environment locally
+
+To run this app locally you need to install the required python modules that are listed in `requirements.txt`.
+
+The suggested method is to create a python venv, source it and install modules inside the `venv` to avoid modifying your main python system env.
+
+```bash
+python -m venv ./venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
